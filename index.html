@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlowChat</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'primary': '#005c4b',
+              'primary-dark': '#00a884',
+              'secondary': '#202c33',
+              'background-light': '#f0f2f5',
+              'background-dark': '#111b21',
+              'panel-light': '#ffffff',
+              'panel-dark': '#202c33',
+              'text-light': '#3b4a54',
+              'text-dark': '#e9edef',
+              'text-secondary-light': '#667781',
+              'text-secondary-dark': '#8696a0',
+              'bubble-outgoing-light': '#d9fdd3',
+              'bubble-outgoing-dark': '#005c4b',
+              'bubble-incoming-light': '#ffffff',
+              'bubble-incoming-dark': '#202c33',
+              'accent': '#25d366',
+            },
+          },
+        },
+      }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "jwt-decode": "https://aistudiocdn.com/jwt-decode@^4.0.0",
+    "@react-oauth/google": "https://aistudiocdn.com/@react-oauth/google@^0.12.2"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+{
+  "name": "FlowChat",
+  "description": "A modern, beautiful chat application designed for seamless conversations, similar to WhatsApp and Telegram. It features a clean user interface, mock chat functionalities, and comprehensive settings.",
+  "requestFramePermissions": []
+}
